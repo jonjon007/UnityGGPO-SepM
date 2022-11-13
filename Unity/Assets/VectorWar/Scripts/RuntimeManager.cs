@@ -42,6 +42,10 @@ public class RuntimeManager : MonoBehaviour {
     // Update view
     void Update() {
         UpdateGameObjects();
+        if(Keyboard.current.digit7Key.wasPressedThisFrame){
+            int sev = UnityGGPO.GGPO.SaySeven();
+            Debug.Log(sev);
+        }
     }
 
     // Update world
