@@ -1,10 +1,9 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
+using System.Text;
 using System.Collections.ObjectModel;
 using System.Runtime.InteropServices;
 using UnityEngine;
-using Unity.Collections;
 using UnityEngine.InputSystem;
 using System.Threading;
 using System.Threading.Tasks;
@@ -137,10 +136,11 @@ public class PlayFabManager : MonoBehaviour
     // Start is called before the first frame update
     void StartMe()
     {
-        string customId = SystemInfo.deviceUniqueIdentifier;
-        customId = "win32_user_1";
+        byte[] byteContents = Encoding.Unicode.GetBytes(SystemInfo.deviceUniqueIdentifier);
+        byte[] hashText = new System.Security.Cryptography.SHA256CryptoServiceProvider().ComputeHash(byteContents);
+        string customId = BitConverter.ToInt32(hashText, 0).ToString();
 
-        // this.playerEntries = new ObservableCollection<PlayerEntry>();
+        this.playerEntries = new ObservableCollection<PlayerEntry>();
         // PlayerList.ItemsSource = this.playerEntries;
 
         this.onPlayerJoinedDelegate = OnPlayerJoined;
