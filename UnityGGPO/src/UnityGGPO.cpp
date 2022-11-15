@@ -283,8 +283,3 @@ PLUGINEX(int) UggGetNetworkStats(GGPOPtr ggpo, int phandle,
     remote_frames_behind = stats.timesync.remote_frames_behind;
     return result;
 }
-
-PLUGINEX(int) UggSaySeven()
-{
-    return 9;
-}

@@ -39,15 +39,6 @@ public class RuntimeManager : MonoBehaviour {
         // ));
     }
 
-    // Update view
-    void Update() {
-        UpdateGameObjects();
-        if(Keyboard.current.digit7Key.wasPressedThisFrame){
-            int sev = UnityGGPO.GGPO.SaySeven();
-            Debug.Log(sev);
-        }
-    }
-
     // Update world
     void FixedUpdate() {
         // TODO: Multiplayer -> put this in game running step logic
@@ -75,16 +66,5 @@ public class RuntimeManager : MonoBehaviour {
     private void LoadDefaultControls() {
         IR.AddControlsToMap(Keyboard.current, IR.DEFAULT_P1_KEYBOARD_BUTTON_MAPPING, 1);
         IR.AddControlsToMap(Keyboard.current, IR.DEFAULT_P2_KEYBOARD_BUTTON_MAPPING, 2);
-    }
-
-    /// <summary>
-    /// Takes GameObjects assigned to PhysObjects and moves them according to their current positions
-    /// </summary>
-    void UpdateGameObjects() {
-        // foreach(Tuple<GameObject, PhysObject> mapTuple in objectsMap){
-        //     GameObject gameObject = mapTuple.Item1;
-        //     PhysObject physObject = mapTuple.Item2;
-        //     gameObject.transform.position = physObject.Transform.Position.toVector3();
-        // }
     }
 }

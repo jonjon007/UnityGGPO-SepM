@@ -225,9 +225,6 @@ namespace UnityGGPO {
             out int local_frames_behind,
             out int remote_frames_behind);
 
-        [DllImport(libraryName)]
-        private static extern int UggSaySeven();
-
         // Access
 
         private static IntPtr _logDelegate;
@@ -333,10 +330,6 @@ namespace UnityGGPO {
                 IntPtr onEvent,
                 string game, int num_players, int localport) {
             return UggTestStartSession(out session, beginGame, advanceFrame, loadGameState, logGameState, saveGameState, freeBuffer, onEvent, game, num_players, localport);
-        }
-
-        public static int SaySeven() {
-            return UggSaySeven();
         }
     }
 }

@@ -67,5 +67,4 @@ extern "C" {
 		int& kbps_sent,
 		int& local_frames_behind,
 		int& remote_frames_behind);
-	PLUGINEX(int) UggSaySeven();
 }
