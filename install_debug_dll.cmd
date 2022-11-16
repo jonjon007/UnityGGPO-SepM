@@ -2,4 +2,5 @@
 cd build\x64\Debug\
 INSTALL ../../bin/x64/Debug/UnityGGPO.dll ../../../Unity/Packages/UnityGGPO/Plugins/Windows/x86_64/UnityGGPO.dll
 INSTALL  ../../../../PlayFabParty/win32/PartySample/bin/x64/Debug/PartySampleApp.dll ../../../Unity/Assets/PartySampleApp.dll
+INSTALL  ../../../../PlayFabParty/win32/PartySample/bin/x64/Debug/PartyWin.dll ../../../Unity/Assets/PartyWin.dll
 cd ../../..

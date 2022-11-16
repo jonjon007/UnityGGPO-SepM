@@ -4,7 +4,7 @@ using System.Text;
 using System.Collections.ObjectModel;
 using System.Runtime.InteropServices;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.UI;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -81,8 +81,10 @@ public class PlayerEntry // : System.ComponentModel.INotifyPropertyChanged
 
 public class PlayFabManager : MonoBehaviour
 {
+    [Header("Set in Hierarchy")]
+    public InputField NetworkDescriptorText;
     private bool cancelPolling = false;
-    private const string libraryName = "PartySampleApp";
+    private const string libraryName = "PartySampleApp.dll";
     // TODO: Store elsewhere
     private const string titleId = "DC33A";
     // Log entries passed from the C++ app layer back to the C# GUI for presentation
@@ -134,7 +136,7 @@ public class PlayFabManager : MonoBehaviour
             );
         private OnPlayerLeftCallback onPlayerLeftDelegate;
     // Start is called before the first frame update
-    void StartMe()
+    public void PlayFabLogin()
     {
         byte[] byteContents = Encoding.Unicode.GetBytes(SystemInfo.deviceUniqueIdentifier);
         byte[] hashText = new System.Security.Cryptography.SHA256CryptoServiceProvider().ComputeHash(byteContents);
@@ -163,12 +165,22 @@ public class PlayFabManager : MonoBehaviour
             this.logCallbackDelegate = LogNewMessage;
     }
 
-    
+    public void PlayFabCreateAndJoinNetwork(){
+        string networkId = Guid.NewGuid().ToString().Substring(0,5);
+        PartySampleApp_CreateAndJoinPartyNetwork(networkId);
+        NetworkDescriptorText.text = networkId;
+    }
+
+    public void PlayFabJoinNetwork(){
+        PartySampleApp_JoinPartyNetwork(NetworkDescriptorText.text);
+    }
+
+    public void PlayFabLeaveNetwork(){
+        PartySampleApp_LeavePartyNetwork();
+    }
 
     void Update(){
-        if(Keyboard.current.digit8Key.wasPressedThisFrame){
-            StartMe();
-        }
+
     }
 
     private IEnumerator PollForNewLogs()
@@ -180,10 +192,10 @@ public class PlayFabManager : MonoBehaviour
         }
     }
 
-    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
+    [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
         private static extern void PartySampleApp_PollLogQueue(LogCallback logCallback);
 
-    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
+    [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
         private static extern void PartySampleApp_Initialize(
             string titleId,
             string playFabPlayerCustomId,
@@ -193,6 +205,18 @@ public class PlayFabManager : MonoBehaviour
             OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
             OnPlayerLeftCallback onPlayerLeftCallback);
     
+    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern void PartySampleApp_CreateAndJoinPartyNetwork(string partyNetworkRoomId);
+
+    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern void PartySampleApp_JoinPartyNetwork(string partyNetworkRoomId);
+
+    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern void PartySampleApp_LeavePartyNetwork();
+
+    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
+        private static extern void PartySampleApp_SendChatText(string chatText);
+
     private void LogNewMessage(string source, string message)
     {
         // this.Dispatcher.VerifyAccess();
