@@ -83,8 +83,9 @@ public class PlayFabManager : MonoBehaviour
 {
     [Header("Set in Hierarchy")]
     public InputField NetworkDescriptorText;
+    public InputField PlayerIndexText;
     private bool cancelPolling = false;
-    private const string libraryName = "PartySampleApp.dll";
+    private const string libraryName = "UnityGGPO";
     // TODO: Store elsewhere
     private const string titleId = "DC33A";
     // Log entries passed from the C++ app layer back to the C# GUI for presentation
@@ -140,7 +141,7 @@ public class PlayFabManager : MonoBehaviour
     {
         byte[] byteContents = Encoding.Unicode.GetBytes(SystemInfo.deviceUniqueIdentifier);
         byte[] hashText = new System.Security.Cryptography.SHA256CryptoServiceProvider().ComputeHash(byteContents);
-        string customId = BitConverter.ToInt32(hashText, 0).ToString();
+        string customId = BitConverter.ToInt32(hashText, 0).ToString() + PlayerIndexText.text;
 
         this.playerEntries = new ObservableCollection<PlayerEntry>();
         // PlayerList.ItemsSource = this.playerEntries;
@@ -151,7 +152,7 @@ public class PlayFabManager : MonoBehaviour
         this.onPlayerVoiceTranscriptionReceivedDelegate = OnPlayerVoiceTranscriptionReceived;
         this.onPlayerLeftDelegate = OnPlayerLeft;
 
-        PartySampleApp_Initialize(
+        PlayFab_Init(
             titleId,
             customId,
             this.onPlayerJoinedDelegate,
@@ -160,23 +161,23 @@ public class PlayFabManager : MonoBehaviour
             this.onPlayerVoiceTranscriptionReceivedDelegate,
             this.onPlayerLeftDelegate);
 
-            StartCoroutine(PollForNewLogs());
+        StartCoroutine(PollForNewLogs());
 
-            this.logCallbackDelegate = LogNewMessage;
+        this.logCallbackDelegate = LogNewMessage;
     }
 
     public void PlayFabCreateAndJoinNetwork(){
         string networkId = Guid.NewGuid().ToString().Substring(0,5);
-        PartySampleApp_CreateAndJoinPartyNetwork(networkId);
+        PlayFab_CreateAndJoinPartyNetwork(networkId);
         NetworkDescriptorText.text = networkId;
     }
 
     public void PlayFabJoinNetwork(){
-        PartySampleApp_JoinPartyNetwork(NetworkDescriptorText.text);
+        PlayFab_JoinPartyNetwork(NetworkDescriptorText.text);
     }
 
     public void PlayFabLeaveNetwork(){
-        PartySampleApp_LeavePartyNetwork();
+        PlayFab_LeavePartyNetwork();
     }
 
     void Update(){
@@ -187,16 +188,16 @@ public class PlayFabManager : MonoBehaviour
     {
         while (!this.cancelPolling)
         {
-            PartySampleApp_PollLogQueue(this.logCallbackDelegate);
+            PlayFab_PollLogQueue(this.logCallbackDelegate);
             yield return new WaitForSeconds(.1f);
         }
     }
 
     [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
-        private static extern void PartySampleApp_PollLogQueue(LogCallback logCallback);
+        private static extern void PlayFab_PollLogQueue(LogCallback logCallback);
 
     [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
-        private static extern void PartySampleApp_Initialize(
+        private static extern void PlayFab_Init(
             string titleId,
             string playFabPlayerCustomId,
             OnPlayerJoinedCallback onPlayerJoinedCallback,
@@ -205,17 +206,17 @@ public class PlayFabManager : MonoBehaviour
             OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
             OnPlayerLeftCallback onPlayerLeftCallback);
     
-    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
-        private static extern void PartySampleApp_CreateAndJoinPartyNetwork(string partyNetworkRoomId);
+    [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
+        private static extern void PlayFab_CreateAndJoinPartyNetwork(string partyNetworkRoomId);
 
-    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
-        private static extern void PartySampleApp_JoinPartyNetwork(string partyNetworkRoomId);
+    [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
+        private static extern void PlayFab_JoinPartyNetwork(string partyNetworkRoomId);
 
-    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
-        private static extern void PartySampleApp_LeavePartyNetwork();
+    [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
+        private static extern void PlayFab_LeavePartyNetwork();
 
-    [DllImport("PartySampleApp.dll", CallingConvention = CallingConvention.StdCall)]
-        private static extern void PartySampleApp_SendChatText(string chatText);
+    [DllImport(libraryName, CallingConvention = CallingConvention.StdCall)]
+        private static extern void PlayFab_SendChatText(string chatText);
 
     private void LogNewMessage(string source, string message)
     {

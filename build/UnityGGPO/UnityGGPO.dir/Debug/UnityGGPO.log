@@ -1,1 +1,4 @@
-﻿LINK : fatal error LNK1104: cannot open file '..\lib\x64\Debug\GGPO.lib'
+﻿  Building Custom Rule C:/Users/jonma/UnityGGPO/UnityGGPO/CMakeLists.txt
+  UnityGGPO.cpp
+     Creating library C:/Users/jonma/UnityGGPO/build/lib/x64/Debug/UnityGGPO.lib and object C:/Users/jonma/UnityGGPO/build/lib/x64/Debug/UnityGGPO.exp
+  UnityGGPO.vcxproj -> C:\Users\jonma\UnityGGPO\build\bin\x64\Debug\UnityGGPO.dll

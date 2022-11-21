@@ -1,5 +1,6 @@
 #pragma once
 #include <IUnityInterface.h>
+#include "party_app.h"
 
 extern "C" {
 #define PLUGINEX(rtype) UNITY_INTERFACE_EXPORT rtype UNITY_INTERFACE_API
@@ -13,6 +14,14 @@ extern "C" {
 	typedef void (*FreeBufferDelegate)(void* buffer);
 	typedef bool (*OnEventDelegate)(GGPOEvent* info);
 	typedef intptr_t GGPOPtr;
+
+	// PlayFab
+	typedef void (__stdcall * LogCallback)(const char* system, const char* message);
+    typedef void (__stdcall * OnPlayerJoinedCallback)(const char* entityId, const char* displayName);
+    typedef void (__stdcall * OnPlayerChatIndicatorUpdatedCallback)(const char* entityId, bool isLocalChatIndicator, int32_t chatIndicator);
+    typedef void (__stdcall * OnPlayerTextMessageReceivedCallback)(const char* entityId, const char* textMessage);
+    typedef void (__stdcall * OnPlayerVoiceTranscriptionReceivedCallback)(const char* entityId, const char* voiceTranscription);
+    typedef void (__stdcall * OnPlayerLeftCallback)(const char* entityId);
 
 	PLUGINEX(const char*) UggPluginVersion();
 	PLUGINEX(int) UggPluginBuildNumber();
@@ -67,4 +76,18 @@ extern "C" {
 		int& kbps_sent,
 		int& local_frames_behind,
 		int& remote_frames_behind);
+	PLUGINEX(void) PlayFab_Init(const char* playFabTitleId,
+		const char* playFabPlayerCustomId,
+		OnPlayerJoinedCallback onPlayerJoinedCallback,
+		OnPlayerChatIndicatorUpdatedCallback onPlayerChatIndicatorUpdatedCallback,
+		OnPlayerTextMessageReceivedCallback onPlayerTextMessageReceivedCallback,
+		OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
+		OnPlayerLeftCallback onPlayerLeftCallback
+	);
+	// TODO: Add teardown PlayFab to unload dll
+	PLUGINEX(void) PlayFab_PollLogQueue(LogCallback callback);
+	PLUGINEX(void) PlayFab_CreateAndJoinPartyNetwork(const char* partyNetworkRoomId);
+	PLUGINEX(void) PlayFab_JoinPartyNetwork(const char* partyNetworkRoomId);
+	PLUGINEX(void) PlayFab_LeavePartyNetwork();
+	PLUGINEX(void) Playfab_SendChatText(const char* chatText);
 }

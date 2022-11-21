@@ -283,3 +283,131 @@ PLUGINEX(int) UggGetNetworkStats(GGPOPtr ggpo, int phandle,
     remote_frames_behind = stats.timesync.remote_frames_behind;
     return result;
 }
+
+typedef int(__cdecl* PF_INIT_PROC)(const char*,
+    const char*,
+    OnPlayerJoinedCallback,
+    OnPlayerChatIndicatorUpdatedCallback,
+    OnPlayerTextMessageReceivedCallback,
+    OnPlayerVoiceTranscriptionReceivedCallback,
+    OnPlayerLeftCallback);
+PLUGINEX(void) PlayFab_Init(
+    const char* playFabTitleId,
+    const char* playFabPlayerCustomId,
+    OnPlayerJoinedCallback onPlayerJoinedCallback,
+    OnPlayerChatIndicatorUpdatedCallback onPlayerChatIndicatorUpdatedCallback,
+    OnPlayerTextMessageReceivedCallback onPlayerTextMessageReceivedCallback,
+    OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
+    OnPlayerLeftCallback onPlayerLeftCallback
+)
+{
+    // Get a handle to the DLL module
+    // TODO: Use a relative path
+    BOOL hr = SetDllDirectoryA("C:/Users/jonma/Documents/builds/SpGame/UnityGGPO_Data/Plugins/x86_64");
+    hinstLib = LoadLibrary(TEXT("PartySampleApp.dll"));
+
+    // Initiate PlayFab
+    if (hinstLib != NULL)
+    {
+        auto PartyInitProc = (PF_INIT_PROC)GetProcAddress(hinstLib, "PartySampleApp_Initialize");
+        // If the function address is valid, call the function.
+        if (NULL != PartyInitProc)
+        {
+            (PartyInitProc)(playFabTitleId,
+                playFabPlayerCustomId,
+                onPlayerJoinedCallback,
+                onPlayerChatIndicatorUpdatedCallback,
+                onPlayerTextMessageReceivedCallback,
+                onPlayerVoiceTranscriptionReceivedCallback,
+                onPlayerLeftCallback);
+        }
+        else {
+            // TODO: Log("Can't find PartySampleApp_Initialize method!");
+        }
+    }
+}
+
+typedef int(__cdecl* PF_POLL_PROC)(LogCallback);
+PLUGINEX(void) PlayFab_PollLogQueue(LogCallback callback)
+{
+    if (hinstLib != NULL)
+    {
+        auto PartyPollProc = (PF_POLL_PROC)GetProcAddress(hinstLib, "PartySampleApp_PollLogQueue");
+        // If the function address is valid, call the function.
+        if (NULL != PartyPollProc)
+        {
+            (PartyPollProc)(callback);
+        }
+        else {
+            // TODO: Log("Can't find PartySampleApp_Initialize method!");
+        }
+    }
+}
+
+typedef int(__cdecl* PF_CREATE_JOIN_PROC)(const char*);
+PLUGINEX(void) PlayFab_CreateAndJoinPartyNetwork(const char* partyNetworkRoomId)
+{
+    if (hinstLib != NULL)
+    {
+        auto PartyCreateJoinProc = (PF_CREATE_JOIN_PROC)GetProcAddress(hinstLib, "PartySampleApp_CreateAndJoinPartyNetwork");
+        // If the function address is valid, call the function.
+        if (NULL != PartyCreateJoinProc)
+        {
+            (PartyCreateJoinProc)(partyNetworkRoomId);
+        }
+        else {
+            // TODO: Log("Can't find PartySampleApp_Initialize method!");
+        }
+    }
+}
+
+typedef int(__cdecl* PF_JOIN_PROC)(const char*);
+PLUGINEX(void) PlayFab_JoinPartyNetwork(const char* partyNetworkRoomId)
+{
+    if (hinstLib != NULL)
+    {
+        auto PartyJoinProc = (PF_JOIN_PROC)GetProcAddress(hinstLib, "PartySampleApp_JoinPartyNetwork");
+        // If the function address is valid, call the function.
+        if (NULL != PartyJoinProc)
+        {
+            (PartyJoinProc)(partyNetworkRoomId);
+        }
+        else {
+            // TODO: Log("Can't find PartySampleApp_Initialize method!");
+        }
+    }
+}
+
+typedef int(__cdecl* PF_LEAVE_PROC)();
+PLUGINEX(void) PlayFab_LeavePartyNetwork()
+{
+    if (hinstLib != NULL)
+    {
+        auto PartyLeaveProc = (PF_LEAVE_PROC)GetProcAddress(hinstLib, "PartySampleApp_LeavePartyNetwork");
+        // If the function address is valid, call the function.
+        if (NULL != PartyLeaveProc)
+        {
+            (PartyLeaveProc)();
+        }
+        else {
+            // TODO: Log("Can't find PartySampleApp_Initialize method!");
+        }
+    }
+}
+
+typedef int(__cdecl* PF_SEND_TEXT_PROC)(const char*);
+PLUGINEX(void) Playfab_SendChatText(const char* chatText)
+{
+    if (hinstLib != NULL)
+    {
+        auto PartySendTextProc = (PF_SEND_TEXT_PROC)GetProcAddress(hinstLib, "PartySampleApp_SendChatText");
+        // If the function address is valid, call the function.
+        if (NULL != PartySendTextProc)
+        {
+            (PartySendTextProc)(chatText);
+        }
+        else {
+            // TODO: Log("Can't find PartySampleApp_Initialize method!");
+        }
+    }
+}
