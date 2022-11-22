@@ -19,6 +19,8 @@ const int LOG_VERBOSE = 3;
 
 LogDelegate uggLogCallback = nullptr;
 
+HINSTANCE hinstLib = NULL;
+
 void UggCallLog(int level, const char* text)
 {
     if (logLevel >= level && uggLogCallback) {
