@@ -19,7 +19,7 @@ const int LOG_VERBOSE = 3;
 
 LogDelegate uggLogCallback = nullptr;
 
-HINSTANCE hinstLib = NULL;
+//HINSTANCE hinstLib = NULL;
 
 void UggCallLog(int level, const char* text)
 {
@@ -319,7 +319,7 @@ PLUGINEX(void) PlayFab_Init(
                 playFabPlayerCustomId,
                 onPlayerJoinedCallback,
                 onPlayerChatIndicatorUpdatedCallback,
-                onPlayerTextMessageReceivedCallback,
+                PlayFab_OnPlayerTextMessageReceived,
                 onPlayerVoiceTranscriptionReceivedCallback,
                 onPlayerLeftCallback);
         }
@@ -412,4 +412,15 @@ PLUGINEX(void) Playfab_SendChatText(const char* chatText)
             // TODO: Log("Can't find PartySampleApp_Initialize method!");
         }
     }
+}
+
+void __stdcall PlayFab_OnPlayerTextMessageReceived(const char* entityId, const char* textMessage)
+{
+    bool res;
+    res = false;
+    res = true;
+    //if (p2p != nullptr) {}
+      //  //res = p2p->OnPlayerTextMessageReceived(entityId, textMessage);
+    //else
+      //  res = 0;
 }

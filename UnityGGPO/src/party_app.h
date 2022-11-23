@@ -1,7 +1,7 @@
 #pragma once
 #include <windows.h>
 
-#ifndef HINSTLIB
-#define HINSTLIB
+#ifndef _HINSTLIB
+#define _HINSTLIB
 extern HINSTANCE hinstLib;
 #endif

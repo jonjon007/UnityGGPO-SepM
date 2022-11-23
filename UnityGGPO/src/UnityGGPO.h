@@ -1,6 +1,9 @@
 #pragma once
 #include <IUnityInterface.h>
 #include "party_app.h"
+//#include "backends/p2p.h"
+
+//Peer2PeerBackend* p2p = nullptr;
 
 extern "C" {
 #define PLUGINEX(rtype) UNITY_INTERFACE_EXPORT rtype UNITY_INTERFACE_API
@@ -90,4 +93,5 @@ extern "C" {
 	PLUGINEX(void) PlayFab_JoinPartyNetwork(const char* partyNetworkRoomId);
 	PLUGINEX(void) PlayFab_LeavePartyNetwork();
 	PLUGINEX(void) Playfab_SendChatText(const char* chatText);
+	void __stdcall PlayFab_OnPlayerTextMessageReceived(const char* entityId, const char* textMessage);
 }
