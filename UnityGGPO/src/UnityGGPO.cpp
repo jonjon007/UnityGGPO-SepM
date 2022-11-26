@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include <cstdio>
+//#include "backends/p2p.h"
 
 constexpr auto PLUGIN_VERSION = "1.0.0.0";
 constexpr auto PLUGIN_BUILD_NUMBER = 1;
@@ -266,6 +267,15 @@ PLUGINEX(void) UggLog(GGPOPtr ggpo, const char* text)
     ggpo_log((GGPOSession*)ggpo, text);
 }
 
+PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, const char* msg)
+{
+    Peer2PeerBackend* p2p = (Peer2PeerBackend*)ggpo;
+    UdpMsg* udpmsg = (UdpMsg*)msg;
+    sockaddr_in socketaddr{};
+    int len = sizeof(msg);
+    p2p->OnMsg(socketaddr, udpmsg, len);
+}
+
 PLUGINEX(int) UggGetNetworkStats(GGPOPtr ggpo, int phandle,
     int& send_queue_len,
     int& recv_queue_len,
@@ -319,7 +329,7 @@ PLUGINEX(void) PlayFab_Init(
                 playFabPlayerCustomId,
                 onPlayerJoinedCallback,
                 onPlayerChatIndicatorUpdatedCallback,
-                PlayFab_OnPlayerTextMessageReceived,
+                onPlayerTextMessageReceivedCallback,
                 onPlayerVoiceTranscriptionReceivedCallback,
                 onPlayerLeftCallback);
         }
@@ -414,13 +424,15 @@ PLUGINEX(void) Playfab_SendChatText(const char* chatText)
     }
 }
 
-void __stdcall PlayFab_OnPlayerTextMessageReceived(const char* entityId, const char* textMessage)
+/*void __stdcall PlayFab_OnPlayerTextMessageReceived(const char* entityId, const char* textMessage)
 {
     bool res;
     res = false;
     res = true;
-    //if (p2p != nullptr) {}
+    if (p2p != nullptr)
+    {
       //  //res = p2p->OnPlayerTextMessageReceived(entityId, textMessage);
+    }
     //else
       //  res = 0;
-}
+}*/

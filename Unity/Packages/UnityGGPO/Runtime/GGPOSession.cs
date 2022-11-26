@@ -68,6 +68,10 @@ namespace UnityGGPO {
             private static IntPtr _freeBufferCallback;
             private static IntPtr _onEventCallback;
 
+            public static IntPtr GetSession(){
+                return ggpo;
+            }
+
             public static void Init(LogDelegate log) {
                 GGPO.SetLogDelegate(log);
             }

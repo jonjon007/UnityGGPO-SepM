@@ -3,8 +3,6 @@
 #include "party_app.h"
 //#include "backends/p2p.h"
 
-//Peer2PeerBackend* p2p = nullptr;
-
 extern "C" {
 #define PLUGINEX(rtype) UNITY_INTERFACE_EXPORT rtype UNITY_INTERFACE_API
 
@@ -72,6 +70,7 @@ extern "C" {
 	PLUGINEX(int) UggSetFrameDelay(GGPOPtr ggpo, int phandle, int frame_delay);
 	PLUGINEX(int) UggAdvanceFrame(GGPOPtr ggpo);
 	PLUGINEX(void) UggLog(GGPOPtr ggpo, const char* text);
+	PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, const char* msg);
 	PLUGINEX(int) UggGetNetworkStats(GGPOPtr ggpo, int phandle,
 		int& send_queue_len,
 		int& recv_queue_len,
@@ -93,5 +92,4 @@ extern "C" {
 	PLUGINEX(void) PlayFab_JoinPartyNetwork(const char* partyNetworkRoomId);
 	PLUGINEX(void) PlayFab_LeavePartyNetwork();
 	PLUGINEX(void) Playfab_SendChatText(const char* chatText);
-	void __stdcall PlayFab_OnPlayerTextMessageReceived(const char* entityId, const char* textMessage);
 }
