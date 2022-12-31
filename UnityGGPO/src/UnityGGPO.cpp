@@ -267,13 +267,10 @@ PLUGINEX(void) UggLog(GGPOPtr ggpo, const char* text)
     ggpo_log((GGPOSession*)ggpo, text);
 }
 
+// TODO: Return int result?
 PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, const char* msg)
 {
-    Peer2PeerBackend* p2p = (Peer2PeerBackend*)ggpo;
-    UdpMsg* udpmsg = (UdpMsg*)msg;
-    sockaddr_in socketaddr{};
-    int len = sizeof(msg);
-    p2p->OnMsg(socketaddr, udpmsg, len);
+    int result = playfab_on_msg((GGPOSession*)ggpo, msg);
 }
 
 PLUGINEX(int) UggGetNetworkStats(GGPOPtr ggpo, int phandle,
