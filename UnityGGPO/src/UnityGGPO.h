@@ -19,8 +19,9 @@ extern "C" {
 	typedef void (__stdcall * LogCallback)(const char* system, const char* message);
     typedef void (__stdcall * OnPlayerJoinedCallback)(const char* entityId, const char* displayName);
     typedef void (__stdcall * OnPlayerChatIndicatorUpdatedCallback)(const char* entityId, bool isLocalChatIndicator, int32_t chatIndicator);
-    typedef void (__stdcall * OnPlayerTextMessageReceivedCallback)(const char* entityId, const char* textMessage);
-    typedef void (__stdcall * OnPlayerVoiceTranscriptionReceivedCallback)(const char* entityId, const char* voiceTranscription);
+	typedef void (__stdcall* OnPlayerTextMessageReceivedCallback)(const char* entityId, const char* textMessage);
+	typedef void (__stdcall* OnPlayerNetworkBytesReceivedCallback)(const char* entityId, const char* msg);
+	typedef void (__stdcall * OnPlayerVoiceTranscriptionReceivedCallback)(const char* entityId, const char* voiceTranscription);
     typedef void (__stdcall * OnPlayerLeftCallback)(const char* entityId);
 
 	PLUGINEX(const char*) UggPluginVersion();
@@ -69,7 +70,7 @@ extern "C" {
 	PLUGINEX(int) UggSetFrameDelay(GGPOPtr ggpo, int phandle, int frame_delay);
 	PLUGINEX(int) UggAdvanceFrame(GGPOPtr ggpo);
 	PLUGINEX(void) UggLog(GGPOPtr ggpo, const char* text);
-	PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, const char* msg);
+	PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, intptr_t msgPtr);
 	PLUGINEX(int) UggGetNetworkStats(GGPOPtr ggpo, int phandle,
 		int& send_queue_len,
 		int& recv_queue_len,
@@ -81,7 +82,7 @@ extern "C" {
 		const char* playFabPlayerCustomId,
 		OnPlayerJoinedCallback onPlayerJoinedCallback,
 		OnPlayerChatIndicatorUpdatedCallback onPlayerChatIndicatorUpdatedCallback,
-		OnPlayerTextMessageReceivedCallback onPlayerTextMessageReceivedCallback,
+		OnPlayerNetworkBytesReceivedCallback onPlayerNetworkBytesReceivedCallback,
 		OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
 		OnPlayerLeftCallback onPlayerLeftCallback
 	);

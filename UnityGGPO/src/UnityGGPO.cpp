@@ -268,8 +268,10 @@ PLUGINEX(void) UggLog(GGPOPtr ggpo, const char* text)
 }
 
 // TODO: Return int result?
-PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, const char* msg)
+PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, intptr_t msgPtr)
 {
+    const char* msg = (const char*)msgPtr;
+    //const std::vector<uint8_t>& data = (const std::vector<uint8_t>&)msgPtr;
     int result = playfab_on_msg((GGPOSession*)ggpo, msg);
 }
 
@@ -297,7 +299,7 @@ typedef int(__cdecl* PF_INIT_PROC)(const char*,
     const char*,
     OnPlayerJoinedCallback,
     OnPlayerChatIndicatorUpdatedCallback,
-    OnPlayerTextMessageReceivedCallback,
+    OnPlayerNetworkBytesReceivedCallback,
     OnPlayerVoiceTranscriptionReceivedCallback,
     OnPlayerLeftCallback);
 PLUGINEX(void) PlayFab_Init(
@@ -305,7 +307,7 @@ PLUGINEX(void) PlayFab_Init(
     const char* playFabPlayerCustomId,
     OnPlayerJoinedCallback onPlayerJoinedCallback,
     OnPlayerChatIndicatorUpdatedCallback onPlayerChatIndicatorUpdatedCallback,
-    OnPlayerTextMessageReceivedCallback onPlayerTextMessageReceivedCallback,
+    OnPlayerNetworkBytesReceivedCallback onPlayerNetworkBytesReceivedCallback,
     OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
     OnPlayerLeftCallback onPlayerLeftCallback
 )
@@ -326,7 +328,7 @@ PLUGINEX(void) PlayFab_Init(
                 playFabPlayerCustomId,
                 onPlayerJoinedCallback,
                 onPlayerChatIndicatorUpdatedCallback,
-                onPlayerTextMessageReceivedCallback,
+                onPlayerNetworkBytesReceivedCallback,
                 onPlayerVoiceTranscriptionReceivedCallback,
                 onPlayerLeftCallback);
         }
