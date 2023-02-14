@@ -226,7 +226,7 @@ namespace UnityGGPO {
             out int remote_frames_behind);
 
         [DllImport(libraryName)]
-        public static extern void UggProcessMsg(IntPtr ggpo, string msg);
+        public static extern void UggProcessMsg(IntPtr ggpo, IntPtr msg);
 
         // Access
 

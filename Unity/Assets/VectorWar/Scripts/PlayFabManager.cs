@@ -121,10 +121,16 @@ public class PlayFabManager : MonoBehaviour
         private OnPlayerChatIndicatorUpdatedCallback onPlayerChatIndicatorUpdatedDelegate;
 
         private delegate void OnPlayerTextMessageReceivedCallback(
-            [MarshalAs(UnmanagedType.LPStr)] string senderEntityId,
-            [MarshalAs(UnmanagedType.LPStr)] string message
+            IntPtr senderEntityId,
+            IntPtr message
             );
         private OnPlayerTextMessageReceivedCallback onPlayerTextMessageReceivedDelegate;
+
+        private delegate void OnPlayerNetworkBytesReceivedCallback(
+            IntPtr senderEntityId,
+            IntPtr message
+            );
+        private OnPlayerNetworkBytesReceivedCallback onPlayerNetworkBytesDelegate;
 
         private delegate void OnPlayerVoiceTranscriptionReceivedCallback(
             [MarshalAs(UnmanagedType.LPStr)] string speakerEntityId,
@@ -141,7 +147,7 @@ public class PlayFabManager : MonoBehaviour
     {
         byte[] byteContents = Encoding.Unicode.GetBytes(SystemInfo.deviceUniqueIdentifier);
         byte[] hashText = new System.Security.Cryptography.SHA256CryptoServiceProvider().ComputeHash(byteContents);
-        string customId = BitConverter.ToInt32(hashText, 0).ToString() + PlayerIndexText.text;
+        string customId = BitConverter.ToInt32(hashText, 0).ToString() + PlayerIndexText.text + "asjdfkljsdaljf";
 
         this.playerEntries = new ObservableCollection<PlayerEntry>();
         // PlayerList.ItemsSource = this.playerEntries;
@@ -149,6 +155,7 @@ public class PlayFabManager : MonoBehaviour
         this.onPlayerJoinedDelegate = OnPlayerJoined;
         this.onPlayerChatIndicatorUpdatedDelegate = OnPlayerChatIndicatorUpdated;
         this.onPlayerTextMessageReceivedDelegate = OnPlayerTextMessageReceived;
+        this.onPlayerNetworkBytesDelegate = OnPlayerNetworkBytesReceived;
         this.onPlayerVoiceTranscriptionReceivedDelegate = OnPlayerVoiceTranscriptionReceived;
         this.onPlayerLeftDelegate = OnPlayerLeft;
 
@@ -157,7 +164,7 @@ public class PlayFabManager : MonoBehaviour
             customId,
             this.onPlayerJoinedDelegate,
             this.onPlayerChatIndicatorUpdatedDelegate,
-            this.onPlayerTextMessageReceivedDelegate,
+            this.onPlayerNetworkBytesDelegate,
             this.onPlayerVoiceTranscriptionReceivedDelegate,
             this.onPlayerLeftDelegate);
 
@@ -170,6 +177,9 @@ public class PlayFabManager : MonoBehaviour
         string networkId = Guid.NewGuid().ToString().Substring(0,5);
         PlayFab_CreateAndJoinPartyNetwork(networkId);
         NetworkDescriptorText.text = networkId;
+
+        // Copy network ID to clipboard
+        GUIUtility.systemCopyBuffer = networkId;
     }
 
     public void PlayFabJoinNetwork(){
@@ -178,6 +188,11 @@ public class PlayFabManager : MonoBehaviour
 
     public void PlayFabLeaveNetwork(){
         PlayFab_LeavePartyNetwork();
+    }
+
+    void Start()
+    {
+        System.Net.WebRequest.DefaultWebProxy = new System.Net.WebProxy("127.0.0.1", 8888);
     }
 
     void Update(){
@@ -202,7 +217,7 @@ public class PlayFabManager : MonoBehaviour
             string playFabPlayerCustomId,
             OnPlayerJoinedCallback onPlayerJoinedCallback,
             OnPlayerChatIndicatorUpdatedCallback onPlayerChatIndicatorUpdatedCallback,
-            OnPlayerTextMessageReceivedCallback onPlayerTextMessageReceivedCallback,
+            OnPlayerNetworkBytesReceivedCallback onPlayerNetworkBytesReceivedCallback,
             OnPlayerVoiceTranscriptionReceivedCallback onPlayerVoiceTranscriptionReceivedCallback,
             OnPlayerLeftCallback onPlayerLeftCallback);
     
@@ -304,10 +319,21 @@ public class PlayFabManager : MonoBehaviour
             // this.Dispatcher.BeginInvoke(updateChatIndicatorAction);
         }
 
-        private void OnPlayerTextMessageReceived(string senderEntityId, string textMessage)
+        private void OnPlayerNetworkBytesReceived(IntPtr senderEntityId, IntPtr textMessage)
         {
+            return;
             // playerEntries is an observable collection and so edits to it and its entries must be done on the Dispatcher thread
-            Action updatePlayerLastMessageAction = () => FindPlayerEntry(senderEntityId).LastMessage = "[text]: " + textMessage;
+            //Action updatePlayerLastMessageAction = () => FindPlayerEntry(senderEntityId).LastMessage = "[text]: " + textMessage;
+            if(UnityGGPO.GGPO.Session.IsStarted())
+                UnityGGPO.GGPO.UggProcessMsg(UnityGGPO.GGPO.Session.GetSession(), textMessage);
+            // this.Dispatcher.BeginInvoke(updatePlayerLastMessageAction);
+        }
+
+        private void OnPlayerTextMessageReceived(IntPtr senderEntityId, IntPtr textMessage)
+        {
+            return;
+            // playerEntries is an observable collection and so edits to it and its entries must be done on the Dispatcher thread
+            //Action updatePlayerLastMessageAction = () => FindPlayerEntry(senderEntityId).LastMessage = "[text]: " + textMessage;
             if(UnityGGPO.GGPO.Session.IsStarted())
                 UnityGGPO.GGPO.UggProcessMsg(UnityGGPO.GGPO.Session.GetSession(), textMessage);
             // this.Dispatcher.BeginInvoke(updatePlayerLastMessageAction);
