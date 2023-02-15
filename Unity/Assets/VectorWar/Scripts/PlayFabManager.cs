@@ -321,7 +321,6 @@ public class PlayFabManager : MonoBehaviour
 
         private void OnPlayerNetworkBytesReceived(IntPtr senderEntityId, IntPtr textMessage)
         {
-            return;
             // playerEntries is an observable collection and so edits to it and its entries must be done on the Dispatcher thread
             //Action updatePlayerLastMessageAction = () => FindPlayerEntry(senderEntityId).LastMessage = "[text]: " + textMessage;
             if(UnityGGPO.GGPO.Session.IsStarted())
