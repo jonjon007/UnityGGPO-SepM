@@ -1,0 +1,1845 @@
+udp | binding udp socket to port 7000.
+Udp bound to port: 7000.
+udpproto1 | 	Msg: ออออ฿o
+udpproto1 | send sync-request (28639).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออok
+udpproto1 | send sync-request (27503).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออY1
+udpproto1 | send sync-request (12633).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๛
+udpproto1 | send sync-request (2299).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออiL
+udpproto1 | send sync-request (19561).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออิ
+udpproto1 | send sync-request (4052).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออa
+udpproto1 | send sync-request (5729).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออb
+udpproto1 | send sync-request (25215).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออJ(
+udpproto1 | send sync-request (10314).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ)<
+udpproto1 | send sync-request (15401).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออนe
+udpproto1 | send sync-request (26041).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออญ:
+udpproto1 | send sync-request (15021).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออT
+udpproto1 | send sync-request (852).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ]
+udpproto1 | send sync-request (23945).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออdR
+udpproto1 | send sync-request (21092).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ”I
+udpproto1 | send sync-request (18836).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ/
+udpproto1 | send sync-request (559).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ_
+udpproto1 | send sync-request (24455).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๒L
+udpproto1 | send sync-request (19698).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออc
+udpproto1 | send sync-request (25483).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออขu
+udpproto1 | send sync-request (30114).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออg&
+udpproto1 | send sync-request (9831).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ์d
+udpproto1 | send sync-request (25836).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออe
+udpproto1 | send sync-request (25869).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออg
+udpproto1 | send sync-request (26382).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออy
+udpproto1 | send sync-request (31119).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออrY
+udpproto1 | send sync-request (22898).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออว
+udpproto1 | send sync-request (4295).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ;N
+udpproto1 | send sync-request (20027).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ8r
+udpproto1 | send sync-request (29240).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ#
+udpproto1 | send sync-request (7459).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๎
+udpproto1 | send sync-request (5102).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออWT
+udpproto1 | send sync-request (21591).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออiB
+udpproto1 | send sync-request (17001).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ=Q
+udpproto1 | send sync-request (20797).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออึ$
+udpproto1 | send sync-request (9430).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ<H
+udpproto1 | send sync-request (18492).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ&h
+udpproto1 | send sync-request (26662).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ|
+udpproto1 | send sync-request (31749).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออมo
+udpproto1 | send sync-request (28609).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๒'
+udpproto1 | send sync-request (10226).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออๅ 
+udpproto1 | send sync-request (8421).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออj~
+udpproto1 | send sync-request (32362).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๕E
+udpproto1 | send sync-request (17909).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออuc
+udpproto1 | send sync-request (25461).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออA1
+udpproto1 | send sync-request (12609).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออๅ
+udpproto1 | send sync-request (3301).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออC
+udpproto1 | send sync-request (17169).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออธ<
+udpproto1 | send sync-request (15544).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๒T
+udpproto1 | send sync-request (21746).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฃ/
+udpproto1 | send sync-request (12195).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ \
+udpproto1 | send sync-request (23712).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ้h
+udpproto1 | send sync-request (26857).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออýj
+udpproto1 | send sync-request (27389).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออๆ
+udpproto1 | send sync-request (3558).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๏
+udpproto1 | send sync-request (4079).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๗V
+udpproto1 | send sync-request (22263).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ(2
+udpproto1 | send sync-request (12840).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฉ
+udpproto1 | send sync-request (2217).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ"
+udpproto1 | send sync-request (8732).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออR?
+udpproto1 | send sync-request (16210).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฑ)
+udpproto1 | send sync-request (10673).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออh
+udpproto1 | send sync-request (26755).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออp&
+udpproto1 | send sync-request (9840).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๒`
+udpproto1 | send sync-request (24818).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ?j
+udpproto1 | send sync-request (27199).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: อออออ"
+udpproto1 | send sync-request (8909).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๎>
+udpproto1 | send sync-request (16110).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (3994).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (2841).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออz
+udpproto1 | send sync-request (31239).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ,K
+udpproto1 | send sync-request (19244).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ^w
+udpproto1 | send sync-request (30558).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ–g
+udpproto1 | send sync-request (26518).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออx}
+udpproto1 | send sync-request (32120).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออby
+udpproto1 | send sync-request (31074).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออc9
+udpproto1 | send sync-request (14691).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออีX
+udpproto1 | send sync-request (22741).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ,
+udpproto1 | send sync-request (11285).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออมm
+udpproto1 | send sync-request (28097).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออๆE
+udpproto1 | send sync-request (17894).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออญ7
+udpproto1 | send sync-request (14253).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออค>
+udpproto1 | send sync-request (16036).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออt
+udpproto1 | send sync-request (29702).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (6015).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ็:
+udpproto1 | send sync-request (15079).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ!]
+udpproto1 | send sync-request (23841).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออNo
+udpproto1 | send sync-request (28494).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออง3
+udpproto1 | send sync-request (13223).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออซ
+udpproto1 | send sync-request (1451).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออaC
+udpproto1 | send sync-request (17249).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ,|
+udpproto1 | send sync-request (31788).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออy
+udpproto1 | send sync-request (5241).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ9z
+udpproto1 | send sync-request (31289).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๕
+udpproto1 | send sync-request (6389).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๙x
+udpproto1 | send sync-request (30969).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออต_
+udpproto1 | send sync-request (24501).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฺ$
+udpproto1 | send sync-request (9434).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออQ
+udpproto1 | send sync-request (81).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออkh
+udpproto1 | send sync-request (26731).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+
+udpproto1 | send sync-request (3850).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออS
+udpproto1 | send sync-request (21269).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ.!
+udpproto1 | send sync-request (8494).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออib
+udpproto1 | send sync-request (25193).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ•m
+udpproto1 | send sync-request (28053).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (11045).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ,2
+udpproto1 | send sync-request (12844).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (1822).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฅ
+udpproto1 | send sync-request (3749).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออซW
+udpproto1 | send sync-request (22443).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออผE
+udpproto1 | send sync-request (17852).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออM(
+udpproto1 | send sync-request (10317).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออม!
+udpproto1 | send sync-request (8641).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออก
+udpproto1 | send sync-request (7073).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ=^
+udpproto1 | send sync-request (24125).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออไ
+udpproto1 | send sync-request (7396).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ์G
+udpproto1 | send sync-request (18412).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออb
+udpproto1 | send sync-request (25231).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออe
+udpproto1 | send sync-request (3429).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออำr
+udpproto1 | send sync-request (29395).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ'N
+udpproto1 | send sync-request (20007).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ!
+udpproto1 | send sync-request (8449).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออใ"
+udpproto1 | send sync-request (8931).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออs
+udpproto1 | send sync-request (29470).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ8q
+udpproto1 | send sync-request (28984).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ8
+udpproto1 | send sync-request (6456).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออB.
+udpproto1 | send sync-request (11842).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ1,
+udpproto1 | send sync-request (11313).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออช
+udpproto1 | send sync-request (3754).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ X
+udpproto1 | send sync-request (22560).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออX
+udpproto1 | send sync-request (22545).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออuv
+udpproto1 | send sync-request (30325).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออg
+udpproto1 | send sync-request (26389).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ~
+udpproto1 | send sync-request (32386).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออAV
+udpproto1 | send sync-request (22081).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ '
+udpproto1 | send sync-request (10016).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออU
+udpproto1 | send sync-request (21919).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ{*
+udpproto1 | send sync-request (10875).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฮ
+udpproto1 | send sync-request (32718).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออQe
+udpproto1 | send sync-request (25937).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออร 
+udpproto1 | send sync-request (8387).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ-
+udpproto1 | send sync-request (5421).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออขC
+udpproto1 | send sync-request (17314).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ\U
+udpproto1 | send sync-request (21852).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออQH
+udpproto1 | send sync-request (18513).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออด8
+udpproto1 | send sync-request (14516).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออถ
+udpproto1 | send sync-request (1718).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออb
+udpproto1 | send sync-request (3682).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออถt
+udpproto1 | send sync-request (29878).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ[
+udpproto1 | send sync-request (4699).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออz-
+udpproto1 | send sync-request (11642).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ&
+udpproto1 | send sync-request (3622).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ~k
+udpproto1 | send sync-request (27518).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออU
+udpproto1 | send sync-request (21776).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออwT
+udpproto1 | send sync-request (21623).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (7963).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ-
+udpproto1 | send sync-request (11543).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ 
+udpproto1 | send sync-request (8214).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ2|
+udpproto1 | send sync-request (31794).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออยd
+udpproto1 | send sync-request (25794).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออุ
+udpproto1 | send sync-request (8152).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๚
+udpproto1 | send sync-request (3578).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออT,
+udpproto1 | send sync-request (11348).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ2
+udpproto1 | send sync-request (562).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออAl
+udpproto1 | send sync-request (27713).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออศ/
+udpproto1 | send sync-request (12232).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ	R
+udpproto1 | send sync-request (21001).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๘
+udpproto1 | send sync-request (3832).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ…n
+udpproto1 | send sync-request (28293).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ~H
+udpproto1 | send sync-request (18558).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฆ]
+udpproto1 | send sync-request (23974).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ"N
+udpproto1 | send sync-request (20002).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออEa
+udpproto1 | send sync-request (24901).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออม\
+udpproto1 | send sync-request (23745).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออc
+udpproto1 | send sync-request (25486).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ—[
+udpproto1 | send sync-request (23447).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (9631).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฯj
+udpproto1 | send sync-request (27343).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออVD
+udpproto1 | send sync-request (17494).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออชC
+udpproto1 | send sync-request (17322).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออgL
+udpproto1 | send sync-request (19559).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออต^
+udpproto1 | send sync-request (24245).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ' 
+udpproto1 | send sync-request (8231).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๎8
+udpproto1 | send sync-request (14574).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออดD
+udpproto1 | send sync-request (17588).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออย
+udpproto1 | send sync-request (5826).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออd
+udpproto1 | send sync-request (6500).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออK\
+udpproto1 | send sync-request (23627).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออS
+udpproto1 | send sync-request (21407).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ;
+udpproto1 | send sync-request (3131).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ*
+udpproto1 | send sync-request (10893).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออQK
+udpproto1 | send sync-request (19281).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออG9
+udpproto1 | send sync-request (14663).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออPt
+udpproto1 | send sync-request (29776).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออd
+udpproto1 | send sync-request (4964).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: อออออh
+udpproto1 | send sync-request (26829).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ'
+udpproto1 | send sync-request (10009).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออOm
+udpproto1 | send sync-request (27983).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออN!
+udpproto1 | send sync-request (8526).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (5018).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออNk
+udpproto1 | send sync-request (27470).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (3096).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๛V
+udpproto1 | send sync-request (22267).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออบ?
+udpproto1 | send sync-request (16314).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออดu
+udpproto1 | send sync-request (30132).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออั]
+udpproto1 | send sync-request (24017).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออI7
+udpproto1 | send sync-request (14153).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฅ
+udpproto1 | send sync-request (9637).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฒ
+udpproto1 | send sync-request (6578).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÛ1
+udpproto1 | send sync-request (12763).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออf7
+udpproto1 | send sync-request (14182).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออแ{
+udpproto1 | send sync-request (31713).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ1
+udpproto1 | send sync-request (12678).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ@
+udpproto1 | send sync-request (16388).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ5
+udpproto1 | send sync-request (7221).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออำn
+udpproto1 | send sync-request (28371).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออา
+udpproto1 | send sync-request (1746).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออþ~
+udpproto1 | send sync-request (32510).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๔F
+udpproto1 | send sync-request (18164).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออีJ
+udpproto1 | send sync-request (19157).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออW$
+udpproto1 | send sync-request (9303).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ?
+udpproto1 | send sync-request (16144).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ5
+udpproto1 | send sync-request (13595).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (3209).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (29952).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ]
+udpproto1 | send sync-request (23819).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ7
+udpproto1 | send sync-request (14215).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออlK
+udpproto1 | send sync-request (19308).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ"T
+udpproto1 | send sync-request (21538).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ€!
+udpproto1 | send sync-request (8576).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออื$
+udpproto1 | send sync-request (9431).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฎ2
+udpproto1 | send sync-request (12974).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออs
+udpproto1 | send sync-request (29442).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ0 
+udpproto1 | send sync-request (8240).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (2839).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออA|
+udpproto1 | send sync-request (31809).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ7
+udpproto1 | send sync-request (14232).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฤ+
+udpproto1 | send sync-request (11204).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ$
+udpproto1 | send sync-request (9372).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ0"
+udpproto1 | send sync-request (8752).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ’x
+udpproto1 | send sync-request (30866).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออพ1
+udpproto1 | send sync-request (12734).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ.
+udpproto1 | send sync-request (5166).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ2:
+udpproto1 | send sync-request (14898).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ:
+udpproto1 | send sync-request (15004).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฐ
+udpproto1 | send sync-request (4784).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออm,
+udpproto1 | send sync-request (11373).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ/
+udpproto1 | send sync-request (12159).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ฿R
+udpproto1 | send sync-request (21215).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออซJ
+udpproto1 | send sync-request (19115).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออmF
+udpproto1 | send sync-request (18029).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออโN
+udpproto1 | send sync-request (20194).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออว
+udpproto1 | send sync-request (4807).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๛}
+udpproto1 | send sync-request (32251).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออคk
+udpproto1 | send sync-request (27556).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออY
+udpproto1 | send sync-request (22799).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+a
+udpproto1 | send sync-request (24842).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ>
+udpproto1 | send sync-request (15889).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออW
+udpproto1 | send sync-request (22278).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ8
+udpproto1 | send sync-request (3896).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออๆc
+udpproto1 | send sync-request (25574).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออม
+udpproto1 | send sync-request (6849).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออn
+udpproto1 | send sync-request (4462).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÛm
+udpproto1 | send sync-request (28123).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออช 
+udpproto1 | send sync-request (8362).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฎS
+udpproto1 | send sync-request (21422).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ@-
+udpproto1 | send sync-request (11584).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÞ	
+udpproto1 | send sync-request (2526).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออw4
+udpproto1 | send sync-request (13431).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ>
+udpproto1 | send sync-request (15874).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออLe
+udpproto1 | send sync-request (25932).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÝC
+udpproto1 | send sync-request (17373).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออH
+
+udpproto1 | send sync-request (2632).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออb2
+udpproto1 | send sync-request (12898).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๖"
+udpproto1 | send sync-request (8950).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออรE
+udpproto1 | send sync-request (17859).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ02
+udpproto1 | send sync-request (12848).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ!
+udpproto1 | send sync-request (5921).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ”/
+udpproto1 | send sync-request (12180).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ—~
+udpproto1 | send sync-request (32407).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออใ=
+udpproto1 | send sync-request (15843).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออณZ
+udpproto1 | send sync-request (23219).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (5400).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (4249).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออxF
+udpproto1 | send sync-request (18040).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออer
+udpproto1 | send sync-request (29285).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๏q
+udpproto1 | send sync-request (29167).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออe
+udpproto1 | send sync-request (25998).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออm
+udpproto1 | send sync-request (32621).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออL1
+udpproto1 | send sync-request (12620).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ)D
+udpproto1 | send sync-request (17449).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออX]
+udpproto1 | send sync-request (23896).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ์z
+udpproto1 | send sync-request (31468).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ{
+udpproto1 | send sync-request (2939).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออูo
+udpproto1 | send sync-request (28633).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออษJ
+udpproto1 | send sync-request (19145).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออL
+udpproto1 | send sync-request (844).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออy
+udpproto1 | send sync-request (6521).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฟ
+udpproto1 | send sync-request (1215).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออน2
+udpproto1 | send sync-request (12985).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÛ-
+udpproto1 | send sync-request (11739).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๓o
+udpproto1 | send sync-request (28659).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ$
+udpproto1 | send sync-request (1828).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออV
+udpproto1 | send sync-request (342).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÛ
+
+udpproto1 | send sync-request (2779).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออญ
+udpproto1 | send sync-request (8109).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ@
+udpproto1 | send sync-request (16390).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออผ)
+udpproto1 | send sync-request (10684).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออส
+udpproto1 | send sync-request (5834).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออพq
+udpproto1 | send sync-request (29118).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออuX
+udpproto1 | send sync-request (22645).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฦc
+udpproto1 | send sync-request (25542).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ็P
+udpproto1 | send sync-request (20711).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออý3
+udpproto1 | send sync-request (13309).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ=D
+udpproto1 | send sync-request (17469).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ#|
+udpproto1 | send sync-request (31779).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๑
+udpproto1 | send sync-request (6897).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออท)
+udpproto1 | send sync-request (10679).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออล?
+udpproto1 | send sync-request (16325).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฌj
+udpproto1 | send sync-request (27308).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ2F
+udpproto1 | send sync-request (17970).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฃt
+udpproto1 | send sync-request (29859).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ7e
+udpproto1 | send sync-request (25911).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๔"
+udpproto1 | send sync-request (8948).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออผq
+udpproto1 | send sync-request (29116).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+
+udpproto1 | send sync-request (2583).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออแ
+udpproto1 | send sync-request (7393).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ!S
+udpproto1 | send sync-request (21281).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๓
+udpproto1 | send sync-request (7667).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ{
+udpproto1 | send sync-request (2171).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÜl
+udpproto1 | send sync-request (27868).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๛
+udpproto1 | send sync-request (1275).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออK
+udpproto1 | send sync-request (6475).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÿ
+udpproto1 | send sync-request (255).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๋k
+udpproto1 | send sync-request (27627).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออCU
+udpproto1 | send sync-request (21827).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออS*
+udpproto1 | send sync-request (10835).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ	
+udpproto1 | send sync-request (2441).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฅ[
+udpproto1 | send sync-request (23461).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออF5
+udpproto1 | send sync-request (13638).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๓
+udpproto1 | send sync-request (6899).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๑*
+udpproto1 | send sync-request (10993).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออื-
+udpproto1 | send sync-request (11735).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฒj
+udpproto1 | send sync-request (27314).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๑
+udpproto1 | send sync-request (2289).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออq
+udpproto1 | send sync-request (32625).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ$y
+udpproto1 | send sync-request (31012).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: อออองA
+udpproto1 | send sync-request (16807).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออบ
+udpproto1 | send sync-request (8122).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออW
+udpproto1 | send sync-request (5463).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๎ 
+udpproto1 | send sync-request (8430).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (9489).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ`
+udpproto1 | send sync-request (8032).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออýi
+udpproto1 | send sync-request (27133).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออz4
+udpproto1 | send sync-request (13434).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ6
+udpproto1 | send sync-request (4406).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ฿T
+udpproto1 | send sync-request (21727).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๛
+udpproto1 | send sync-request (4347).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออNI
+udpproto1 | send sync-request (18766).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (5259).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออคg
+udpproto1 | send sync-request (26532).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ[
+udpproto1 | send sync-request (23451).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÞT
+udpproto1 | send sync-request (21726).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฬR
+udpproto1 | send sync-request (21196).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออP 
+udpproto1 | send sync-request (8272).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (5262).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออhI
+udpproto1 | send sync-request (18792).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออK>
+udpproto1 | send sync-request (15947).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออน
+udpproto1 | send sync-request (3257).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÝ#
+udpproto1 | send sync-request (9181).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออz
+udpproto1 | send sync-request (31261).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ{
+udpproto1 | send sync-request (31625).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ1
+udpproto1 | send sync-request (9521).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ"/
+udpproto1 | send sync-request (12066).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+
+udpproto1 | send sync-request (2689).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ#
+udpproto1 | send sync-request (8963).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออW
+udpproto1 | send sync-request (22284).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ๗	
+udpproto1 | send sync-request (2551).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออm
+udpproto1 | send sync-request (27924).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออNU
+udpproto1 | send sync-request (21838).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ\
+udpproto1 | send sync-request (6236).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฏ
+
+udpproto1 | send sync-request (2735).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ25
+udpproto1 | send sync-request (13618).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออfU
+udpproto1 | send sync-request (21862).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÿh
+udpproto1 | send sync-request (26879).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออD
+udpproto1 | send sync-request (5956).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ8@
+udpproto1 | send sync-request (16440).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออD
+udpproto1 | send sync-request (7492).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออÜd
+udpproto1 | send sync-request (25820).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ‘~
+udpproto1 | send sync-request (32401).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ่y
+udpproto1 | send sync-request (31208).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฎ 
+udpproto1 | send sync-request (8366).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออiK
+udpproto1 | send sync-request (19305).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออมq
+udpproto1 | send sync-request (29121).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ@
+udpproto1 | send sync-request (16399).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออS2
+udpproto1 | send sync-request (12883).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออq 
+udpproto1 | send sync-request (8305).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ2
+udpproto1 | send sync-request (12808).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออd)
+udpproto1 | send sync-request (10596).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ?
+udpproto1 | send sync-request (16151).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออJ
+udpproto1 | send sync-request (18964).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ‘F
+udpproto1 | send sync-request (18065).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออด3
+udpproto1 | send sync-request (13236).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฌS
+udpproto1 | send sync-request (21420).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออP
+udpproto1 | send sync-request (20495).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออทN
+udpproto1 | send sync-request (20151).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ<
+udpproto1 | send sync-request (7484).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออb 
+udpproto1 | send sync-request (8290).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ= 
+udpproto1 | send sync-request (8253).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออwD
+udpproto1 | send sync-request (17527).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออWm
+udpproto1 | send sync-request (27991).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ@o
+udpproto1 | send sync-request (28480).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ^|
+udpproto1 | send sync-request (31838).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (17189).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออYp
+udpproto1 | send sync-request (28761).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออS@
+udpproto1 | send sync-request (16467).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออu
+udpproto1 | send sync-request (29976).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ_&
+udpproto1 | send sync-request (9823).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออบ*
+udpproto1 | send sync-request (10938).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออF
+udpproto1 | send sync-request (70).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ;
+udpproto1 | send sync-request (5691).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ@
+udpproto1 | send sync-request (5440).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออw
+udpproto1 | send sync-request (1911).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ3
+udpproto1 | send sync-request (3379).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออI(
+udpproto1 | send sync-request (10313).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออีM
+udpproto1 | send sync-request (19925).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออตE
+udpproto1 | send sync-request (17845).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออน}
+udpproto1 | send sync-request (32185).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ6+
+udpproto1 | send sync-request (11062).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออีD
+udpproto1 | send sync-request (17621).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: อออองi
+udpproto1 | send sync-request (27047).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออO^
+udpproto1 | send sync-request (24143).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออln
+udpproto1 | send sync-request (28268).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออm
+udpproto1 | send sync-request (28044).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออณ4
+udpproto1 | send sync-request (13491).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออืX
+udpproto1 | send sync-request (22743).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออj
+udpproto1 | send sync-request (27154).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ>
+udpproto1 | send sync-request (15897).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออะh
+udpproto1 | send sync-request (26832).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออwz
+udpproto1 | send sync-request (31351).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ=
+udpproto1 | send sync-request (15758).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออูC
+udpproto1 | send sync-request (17369).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ3[
+udpproto1 | send sync-request (23347).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออค
+udpproto1 | send sync-request (2980).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออHw
+udpproto1 | send sync-request (30536).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ#\
+udpproto1 | send sync-request (23587).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ*
+udpproto1 | send sync-request (6698).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ.
+udpproto1 | send sync-request (11903).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออฑ	
+udpproto1 | send sync-request (2481).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ6e
+udpproto1 | send sync-request (25910).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออH*
+udpproto1 | send sync-request (10824).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออe7
+udpproto1 | send sync-request (14181).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ…
+udpproto1 | send sync-request (4485).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออo{
+udpproto1 | send sync-request (31599).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออย
+udpproto1 | send sync-request (7874).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออมs
+udpproto1 | send sync-request (29633).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออMQ
+udpproto1 | send sync-request (20813).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออภ
+udpproto1 | send sync-request (5824).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
+udpproto1 | 	Msg: ออออ
+udpproto1 | send sync-request (4377).
+udp | sent packet length 8.
+udpproto1 | No luck syncing after 500 ms... Re-queueing sync packet.
