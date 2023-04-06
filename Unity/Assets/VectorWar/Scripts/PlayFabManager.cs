@@ -147,7 +147,7 @@ public class PlayFabManager : MonoBehaviour
     {
         byte[] byteContents = Encoding.Unicode.GetBytes(SystemInfo.deviceUniqueIdentifier);
         byte[] hashText = new System.Security.Cryptography.SHA256CryptoServiceProvider().ComputeHash(byteContents);
-        string customId = BitConverter.ToInt32(hashText, 0).ToString() + PlayerIndexText.text + "asjdfkljsdaljf";
+        string customId = BitConverter.ToInt32(hashText, 0).ToString() + PlayerIndexText.text;
 
         this.playerEntries = new ObservableCollection<PlayerEntry>();
         // PlayerList.ItemsSource = this.playerEntries;

@@ -271,7 +271,6 @@ PLUGINEX(void) UggLog(GGPOPtr ggpo, const char* text)
 PLUGINEX(void) UggProcessMsg(GGPOPtr ggpo, intptr_t msgPtr)
 {
     const char* msg = (const char*)msgPtr;
-    //const std::vector<uint8_t>& data = (const std::vector<uint8_t>&)msgPtr;
     int result = playfab_on_msg((GGPOSession*)ggpo, msg);
 }
 
@@ -314,7 +313,7 @@ PLUGINEX(void) PlayFab_Init(
 {
     // Get a handle to the DLL module
     // TODO: Use a relative path
-    BOOL hr = SetDllDirectoryA("C:/Users/jonma/Documents/builds/SpGame/UnityGGPO_Data/Plugins/x86_64");
+    BOOL hr = SetDllDirectoryA("./UnityGGPO_Data/Plugins/x86_64");
     hinstLib = LoadLibrary(TEXT("PartySampleApp.dll"));
 
     // Initiate PlayFab
@@ -335,6 +334,9 @@ PLUGINEX(void) PlayFab_Init(
         else {
             // TODO: Log("Can't find PartySampleApp_Initialize method!");
         }
+    }
+    else {
+        UggCallLog(LOG_INFO, "UggDisconnectPlayer");
     }
 }
 
